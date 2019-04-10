@@ -1,0 +1,22 @@
+
+
+header{
+  div{
+
+    height: 50px;
+    width: 100%;
+    @include flexCenterAll;
+
+      img{
+        width: 25px;
+        margin-right: 10px;
+      }
+
+      h2{
+        font-weight: 400;
+        font-size: 15px;
+      }
+  }
+
+
+}

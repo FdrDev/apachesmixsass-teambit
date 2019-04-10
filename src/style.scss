@@ -3,4 +3,10 @@
 body{
   font-family: 'MONTSERRAT', sans-serif;
   background: white;
+  width: 100vw;
 }
+
+@import "const";
+@import "header";
+@import "mainContent";
+@import "footer";
