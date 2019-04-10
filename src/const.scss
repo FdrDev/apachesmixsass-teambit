@@ -1,7 +1,4 @@
-.container{
-  width: 80%;
-  margin: auto;
-}
+
 
 @mixin flexCenterAll {
   display:flex;
@@ -9,19 +6,8 @@
   align-items: center;
 }
 
-hr{
-  width: 80%;
-  margin: auto;
-}
-
-a{
-  text-decoration: none;
-}
-
-.bg-2{
-  background: #FFE7D2;
-}
-
 .cont-sect{
   @include flexCenterAll;
 }
+
+$h1SizeText : 55px;

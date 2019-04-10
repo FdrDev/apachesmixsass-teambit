@@ -95,3 +95,46 @@ header .cont-nav a {
   font-size: 12px;
 }
 
+.sect-2 {
+  flex-direction: column;
+}
+
+.sect-2 .head-text {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.sect-2 .sect2-imgCont {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sect-2 .sect2-imgCont .sect2-imgbox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sect-2 .sect2-imgCont .sect2-imgbox img {
+  width: 140px;
+  padding: 30px 0;
+}
+
+.sect-2 .sect2-imgCont .sect2-imgbox p {
+  width: 90%;
+  text-align: center;
+}
+
+.sect-2 .sect2-bttmImg {
+  padding: 50px;
+}
+
+.sect-2 .sect2-bttmImg img {
+  width: 280px;
+}
+

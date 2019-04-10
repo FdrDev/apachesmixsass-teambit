@@ -1,7 +1,7 @@
 .sect1{
   margin: 80px 0;
   h1{
-    font-size: 55px;
+    font-size: $h1SizeText;
   }
 
   p{
@@ -22,4 +22,45 @@
     font-size: 12px;
   }
 
+}
+
+.sect-2{
+  flex-direction: column;
+
+  .head-text{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+  }
+
+  .sect2-imgCont{
+    width: 90%;
+    margin: auto;
+    @include flexCenterAll;
+    justify-content: space-between;
+
+    .sect2-imgbox{
+      @include flexCenterAll;
+      flex-direction: column;
+      img{
+        width: 140px;
+        padding: 30px 0;
+      }
+      p{
+        width: 90%;
+        text-align: center;
+      }
+
+    }
+
+
+  }
+
+  .sect2-bttmImg{
+    padding: 50px;
+    img{
+      width: 280px;
+    }
+  }
 }
