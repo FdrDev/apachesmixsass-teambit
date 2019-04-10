@@ -20,20 +20,78 @@ hr {
   margin: auto;
 }
 
-header div {
-  height: 50px;
-  width: 100%;
+a {
+  text-decoration: none;
+}
+
+.bg-2 {
+  background: #FFE7D2;
+}
+
+.cont-sect {
   display: flex;
   align-items: center;
 }
 
-header div img {
+header .cont-nav {
+  height: 80px;
+  width: 100%;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+header .cont-nav nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+header .cont-nav div.logo {
+  display: flex;
+  align-items: center;
+}
+
+header .cont-nav div.logo img {
   width: 25px;
   margin-right: 10px;
 }
 
-header div h2 {
+header .cont-nav div.logo h2 {
   font-weight: 400;
-  font-size: 15px;
+  font-size: 18px;
+}
+
+header .cont-nav a {
+  color: black;
+  padding: 0 10px;
+}
+
+.sect1 {
+  margin: 80px 0;
+}
+
+.sect1 h1 {
+  font-size: 55px;
+}
+
+.sect1 p {
+  font-size: 22px;
+  margin: 10px 10px 25px 0;
+}
+
+.sect1 img {
+  width: 100%;
+}
+
+.sect1 .btn-sect1 {
+  margin-bottom: 35px;
+}
+
+.sect1 a {
+  color: black;
+  margin: 30px 0;
+  font-size: 12px;
 }
 
