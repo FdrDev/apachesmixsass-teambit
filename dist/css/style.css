@@ -8,10 +8,21 @@ body {
   font-family: "MONTSERRAT", sans-serif;
   background: white;
   width: 100vw;
+  color: #58402C;
 }
 
 .container {
   width: 80%;
+  margin: auto;
+}
+
+.container50 {
+  width: 45%;
+  margin: auto;
+}
+
+.container95 {
+  width: 95%;
   margin: auto;
 }
 
@@ -34,7 +45,7 @@ a {
 }
 
 header .cont-nav {
-  height: 80px;
+  height: 75px;
   width: 100%;
   color: black;
   display: flex;
@@ -66,6 +77,24 @@ header .cont-nav div.logo h2 {
 header .cont-nav a {
   color: black;
   padding: 0 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+header .cont-nav a i {
+  font-size: 20px;
+}
+
+header .cont-nav input[type=button] {
+  background: none;
+  border: 1px solid black;
+  padding: 3px;
+  transition: 0.5s;
+}
+
+header .cont-nav input[type=button]:hover {
+  color: white;
+  background: #3A57AE;
 }
 
 .sect1 {
@@ -95,6 +124,14 @@ header .cont-nav a {
   font-size: 12px;
 }
 
+.sect1 input[type=button] {
+  background: #3855A9;
+  border: 1px solid black;
+  padding: 7px;
+  border-radius: 10px;
+  color: white;
+}
+
 .sect-2 {
   flex-direction: column;
 }
@@ -118,10 +155,12 @@ header .cont-nav a {
   display: flex;
   align-items: center;
   flex-direction: column;
+  max-width: 140px;
 }
 
 .sect-2 .sect2-imgCont .sect2-imgbox img {
-  width: 140px;
+  max-width: 100%;
+  max-height: 100%;
   padding: 30px 0;
 }
 
@@ -130,11 +169,102 @@ header .cont-nav a {
   text-align: center;
 }
 
+.sect-2 .sect2-imgCont .safe {
+  width: 80px;
+  height: 140px;
+  padding: 0 !important;
+}
+
 .sect-2 .sect2-bttmImg {
   padding: 50px;
+  margin-bottom: 80px;
 }
 
 .sect-2 .sect2-bttmImg img {
   width: 280px;
+}
+
+.sect-2 hr {
+  margin-bottom: 80px;
+}
+
+.sect4 {
+  margin-bottom: 80px;
+}
+
+.sect4 .headHowContSect {
+  padding: 80px 0 25px 0;
+  display: flex;
+}
+
+.sect4 .headHowContSect .howImg img {
+  width: 768px;
+}
+
+.sect4 .headHowContSect .howText {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.sect4 .headHowContSect .howText img {
+  width: 270px;
+  margin-left: 100px;
+}
+
+.sect4 .headHowContSect .howText h2 {
+  padding: 0 0 15px 0;
+}
+
+.sect4 .headHowContSect .howText p {
+  padding: 0 0 25px 0;
+  width: 40%;
+}
+
+.sect4 .headHowContSect .howText a {
+  padding: 0 0 25px 0;
+  display: block;
+}
+
+.sect5 {
+  margin-bottom: 80px;
+}
+
+.sect5 .headHowContSect {
+  padding: 80px 0 25px 0;
+  display: flex;
+}
+
+.sect5 .headHowContSect .howImg img {
+  width: 768px;
+}
+
+.sect5 .headHowContSect .howText {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.sect5 .headHowContSect .howText img {
+  width: 270px;
+  margin-right: 100px;
+}
+
+.sect5 .headHowContSect .howText h2 {
+  padding: 0 0 15px 0;
+}
+
+.sect5 .headHowContSect .howText p {
+  padding: 0 0 25px 0;
+  width: 40%;
+}
+
+.sect5 .headHowContSect .howText a {
+  padding: 0 0 25px 0;
+  display: block;
 }
 

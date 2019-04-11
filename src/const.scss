@@ -1,13 +1,60 @@
-
-
 @mixin flexCenterAll {
   display:flex;
   // justify-content:center;
   align-items: center;
 }
 
-.cont-sect{
-  @include flexCenterAll;
+@mixin h2HeadText{
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  padding: 50px 0;
 }
 
 $h1SizeText : 55px;
+$marginForLittleImage : 100px;
+$textColor:#58402C;
+
+
+*{box-sizing: border-box; margin: 0; padding: 0;}
+
+body{
+  font-family: 'MONTSERRAT', sans-serif;
+  background: white;
+  width: 100vw;
+  color: $textColor;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.container50{
+  width: 45%;
+  margin: auto;
+}
+
+.container95{
+  width: 95%;
+  margin: auto;
+}
+
+hr{
+  width: 80%;
+  margin: auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+.bg-2{
+  background: #FFE7D2;
+
+}
+
+
+.cont-sect{
+  @include flexCenterAll;
+}
