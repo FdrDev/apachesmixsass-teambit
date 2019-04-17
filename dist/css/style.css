@@ -332,3 +332,27 @@ header .cont-nav input[type=button]:hover {
   padding: 0;
 }
 
+.footerCont {
+  display: flex;
+  padding: 100px 0;
+}
+
+.footerCont ul {
+  list-style-type: none;
+}
+
+.footerCont ul li {
+  padding: 15px 0;
+}
+
+.footerCont .footerLogo {
+  width: 40%;
+  display: flex;
+}
+
+.footerCont .footerLink {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+

@@ -1,0 +1,22 @@
+.footerCont{
+  display: flex;
+  padding: 100px 0;
+
+  ul{
+    list-style-type: none;
+    li{
+      padding: 15px 0;
+    }
+  }
+
+  .footerLogo{
+    width: 40%;
+    display: flex;
+  }
+
+  .footerLink{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
